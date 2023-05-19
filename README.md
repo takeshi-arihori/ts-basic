@@ -1,4 +1,3 @@
 # トラハックさんのYouTubeにて学習
 
-https://youtu.be/qSHlXcSces8?list=PLX8Rsrpnn3IW0REXnTWQp79mxCvHkIrad
-34:35 / 50:06  5/18 23:00
+https://www.youtube.com/watch?v=R35LJL6a-p0&list=PLX8Rsrpnn3IW0REXnTWQp79mxCvHkIrad&index=3
