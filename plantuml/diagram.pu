@@ -1,0 +1,9 @@
+@startuml
+title ESLint & Prettier の実行フロー
+actor Developer
+Developer -> [TypeScript File]: Write code
+[TypeScript File] -> [Husky]: git commit
+[Husky] -> [Lint-Staged]: pre-commit hook
+[Lint-Staged] -> [GitHub]: チェック・整形(ESLint & Prettier)
+
+@enduml
