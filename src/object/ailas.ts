@@ -1,4 +1,4 @@
-export default function typeAilasSample() {
+export default function typeAilasSample(): void {
   // 型エイリアスで型定義を再利用
   type Country = {
     capital: string
