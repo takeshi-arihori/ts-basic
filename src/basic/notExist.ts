@@ -1,5 +1,5 @@
-export default function notExistSample() {
-  let name = null
+export default function notExistSample(): void {
+  const name = null
   console.log('notExist sample 1:', typeof name, name)
 
   // name = "Takehi Arihori"

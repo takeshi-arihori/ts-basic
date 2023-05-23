@@ -1,13 +1,13 @@
-export default function primitiveSample() {
-  let name: string = 'Takeshi Arihori'
+export default function primitiveSample(): void {
+  const name = 'Takeshi Arihori'
   // name = 123;
   console.log('primitive sample 1:', typeof name, name)
 
-  let age: number = 36
+  const age = 36
   // age = "age";
   console.log('primitive sample 2:', typeof age, age)
 
-  let isSingle: boolean = true;
+  const isSingle = true
   // isSingle = 36;
   console.log('primitive sample 3:', typeof isSingle, isSingle)
 
