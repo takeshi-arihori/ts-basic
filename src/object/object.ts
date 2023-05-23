@@ -1,8 +1,8 @@
-export default function objectSample() {
-  const a: object = {
-    name: 'Takeshi Arihori',
-    age: 36,
-  }
+export default function objectSample():void {
+  // const a: object = {
+  //   name: 'Takeshi Arihori',
+  //   age: 36,
+  // }
   // オブジェクトリテラル記法で型定義
   let country: {
     language: string
