@@ -1,4 +1,4 @@
-export default function arraySample(){
+export default function arraySample(): void {
   // シンプルな配列の型定義
   const colors: string[] = ['red', 'blue']
   colors.push('yellow')
@@ -12,8 +12,8 @@ export default function arraySample(){
   console.log('Array array sample 2:', even)
 
   // 合併型を用いた配列の型定義
-  const ids: (string | number)[] = ["ABC", 123]
-  ids.push("DEF")
+  const ids: (string | number)[] = ['ABC', 123]
+  ids.push('DEF')
   ids.push(456)
   // ids.push(true)
   console.log('Array array sample 3:', ids)
@@ -22,7 +22,7 @@ export default function arraySample(){
   const generateSomeArray = () => {
     const _someArray = [] // any[]
     _someArray.push(123) // number[]として推論される
-    _someArray.push("ABC") // (string | number)[]として推論される
+    _someArray.push('ABC') // (string | number)[]として推論される
     return _someArray
   }
 
@@ -32,7 +32,7 @@ export default function arraySample(){
   console.log('Array array sample 4:', someArray)
 
   // イミュータブルな配列を作る
-  const commands: readonly string[] = ["git add", "git commit", "git push"]
+  const commands: readonly string[] = ['git add', 'git commit', 'git push']
   // commands.push("git fetch")
   // commands[2] = "git pull"
   console.log('Array array sample 5:', commands)
@@ -41,5 +41,4 @@ export default function arraySample(){
   const immutableNumbers: ReadonlyArray<number> = [1, 2, 3]
   // immutableNumbers.push(4)
   console.log('Array array sample 6:', immutableNumbers)
-  
 }

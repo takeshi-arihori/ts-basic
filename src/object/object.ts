@@ -1,4 +1,4 @@
-export default function objectSample():void {
+export default function objectSample(): void {
   // const a: object = {
   //   name: 'Takeshi Arihori',
   //   age: 36,
@@ -51,5 +51,4 @@ export default function objectSample():void {
   capitals.Canada = 'Ottawa'
 
   console.log('Object object sample 4:', capitals)
-
 }
