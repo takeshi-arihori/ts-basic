@@ -13,7 +13,6 @@ const francePan: Bread = {
   type: 'hard',
 }
 
-
 // 型エイリアスの場合、同じ名前のものがあった場合は上書きされる
 // 型エイリアスで表現
 type MaboDofu = {
@@ -33,8 +32,6 @@ const maboDon: MaboDon = {
   spicyLevel: 10,
   gram: 350,
 }
-
-
 
 // インターフェースの継承
 interface Book {
