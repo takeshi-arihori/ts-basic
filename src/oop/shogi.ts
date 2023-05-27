@@ -4,7 +4,7 @@ type player = 'first' | 'second'
 
 // 駒の位置を表すクラス
 class Position {
-  constuctor(private suji: suji, private dan: dan) {}
+  constructor(private suji: suji, private dan: dan) {}
 
   // パラメーターに渡された位置と現在の位置を比較するメソッド
   distanceFrom(position: Position, player: player) {
@@ -72,9 +72,11 @@ class Narikin extends Fu {
     const distance = this.position.distanceFrom(position, player)
     return (
       // 移動先が1マス以内
-      distance.suji < 2 && distance.dan < 2
+      distance.suji < 2 &&
+      distance.dan < 2 &&
       // 左後方と右後方には進めない
-      && distance.suji !== 0 && distance.dan === -1
-      )
+      distance.suji !== 0 &&
+      distance.dan === -1
+    )
   }
 }

@@ -46,3 +46,7 @@
 // import genericsAdvancedSample from './generics/advanced'
 // genericsBasicSample()
 // genericsAdvancedSample()
+
+
+
+// 08.非同期処理
