@@ -21,5 +21,3 @@ export default function typeAilasSample(): void {
   console.log('Object object sample 1:', japan)
   console.log('Object object sample 2:', america)
 }
-
-

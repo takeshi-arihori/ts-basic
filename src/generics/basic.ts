@@ -1,4 +1,4 @@
-export default function genericsBasicSample() {
+export default function genericsBasicSample(): void {
   // ジェネリック型を使わない場合1: string型しか受け取れない
   const stringReduce = (array: string[], initialValue: string): string => {
     let result = initialValue
@@ -41,7 +41,6 @@ export default function genericsBasicSample() {
 
   console.log('Generics basic sample 3:', genericStringReduce(['MAKE ', 'TYPESCRIPT ', 'GREAT ', 'AGAIN'], ''))
 
-
   const genericNumberReduce: GenericReduce<number> = (array: number[], initialValue: number): number => {
     let result = initialValue
     for (let i = 0; i < array.length; i++) {
@@ -51,7 +50,6 @@ export default function genericsBasicSample() {
   }
 
   console.log('Generics basic sample 4:', genericNumberReduce([-100, -200, -300], 1000))
-
 
   // 色々ばジェネリック型の定義方法
   // 完全な呼び出しシグネチャー(ここのシグネチャにジェネリック型を割り当てる)
@@ -65,6 +63,4 @@ export default function genericsBasicSample() {
   type GenericReduce3<T> = (array: T[], initialValue: T) => T
   // 個々の呼び出しシグネチャにジェネリック型を割り当てる
   type GenericReduce4 = <T>(array: T[], initialValue: T) => T
-
 }
-
