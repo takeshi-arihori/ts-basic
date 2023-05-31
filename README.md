@@ -1,4 +1,1 @@
-# トラハックさんのYouTubeにて学習
-
-
-NEXT: [TypeScript](https://youtu.be/obdbskaarVQ?list=PLX8Rsrpnn3IW0REXnTWQp79mxCvHkIrad)
+# lint, pretterを使用したTypeScriptの学習リポジトリ
